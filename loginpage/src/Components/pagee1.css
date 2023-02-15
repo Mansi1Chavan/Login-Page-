@@ -1,0 +1,72 @@
+.user{
+    height:52rem;
+    width: 100%;
+    background-image: linear-gradient(red,blueviolet, blue);
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main{
+    height: 400px;
+    width:300px;
+    background-color: azure;
+    display: flex;
+    flex-direction:column;
+    padding:50px;
+    text-align: left;
+    gap:10px;
+    border-radius:10px;
+}
+
+.main input{
+    width:80%;
+    background-color: azure;
+    outline:none;
+    border-color: transparent;
+
+}
+
+.main input:focus{
+    outline:none;
+    border-bottom:1px solid gray;
+
+}
+
+.login1{
+    background-image: linear-gradient(red, blue);
+    height: 50px;
+    width:150px;
+    border-radius: 5px;
+   
+}
+.forgot{
+    text-align: right;
+}
+.login2 , .btn{
+    display: flex;
+    justify-content:center ;
+}
+.main h1 {
+    text-align: center;
+}
+
+.anchorTag a{
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    /* display:flex;
+    flex-direction:column; */
+margin-left:50px;
+}
+.anchorTag button{
+    margin-left:50px;
+
+}
+.anchorTag{
+    height:50px;
+    background-color:white-smoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
